@@ -1,0 +1,57 @@
+button {
+    margin: 10px;
+    background: pink;
+    font-size: 20px;
+
+}
+
+#form {
+    border: dotted 1px;
+    padding: 10px;
+    float: right;
+    width: 20%;
+    background: pink;
+}
+
+#container {
+    display: flex;
+    border-bottom: dotted 10px pink;
+    padding-bottom: 20px;
+}
+
+#buttonsDiv {
+    width: 80%;
+}
+
+h1 {
+    padding-left: 10px;
+}
+
+#add-topic {
+    background: black;
+    color: white;
+}
+
+#gifsDiv {
+    /* width: 15%; */
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#newnewdiv {
+    padding: 30px;
+    background: grey;
+    color: white;
+    width: 200px;
+    margin: 10px;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
+
+img:hover {
+    cursor: pointer;
+}
