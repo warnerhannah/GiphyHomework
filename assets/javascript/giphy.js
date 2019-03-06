@@ -35,7 +35,7 @@ $("#add-topic").on("click", function (event) {
 $(document.body).on("click", ".emo", function() {
     var newEmotion = $(this).html();
     console.log(newEmotion);
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + newEmotion + "&api_key=FYiEZ4X5RrEu8Xb5N8IgGtKXmKyBYzwQ&limit=15"
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + newEmotion + "&api_key=FYiEZ4X5RrEu8Xb5N8IgGtKXmKyBYzwQ&limit=15"
     $("#gifsDiv").empty();
 
     $.ajax({
